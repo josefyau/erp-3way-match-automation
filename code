@@ -864,27 +864,3 @@ Sub ShowAllinPermRec()
     ws.Range("A4").Select
 
 End Sub
-
-
-' =========================== Sheet9 (worksheet code) ===========================
-Option Explicit
-
-Private Sub Label1_Click()
-    If Label1.Caption = "v" Then Label1.Caption = "" Else Label1.Caption = "v"
-End Sub
-
-Private Sub Label2_Click()
-    If Label2.Caption = "v" Then Label2.Caption = "" Else Label2.Caption = "v"
-End Sub
-
-Private Sub Label3_Click()
-    If Label3.Caption = "v" Then Label3.Caption = "" Else Label3.Caption = "v"
-End Sub
-
-Private Sub Label4_Click()
-    If Label4.Caption = "v" Then Label4.Caption = "" Else Label4.Caption = "v"
-End Sub
-
-Private Sub Label5_Click()
-    If Label5.Caption = "v" Then Label5.Caption = "" Else Label5.Caption = "v"
-End Sub
